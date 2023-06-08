@@ -1,0 +1,13 @@
+{
+  "name": "@trondal/pluck",
+  "version": "1.0.0",
+  "repository": "git@github.com:trondal/pluck.git",
+  "author": "Trond Albinussen <trond.albinussen@gmail.com>",
+  "license": "private",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
