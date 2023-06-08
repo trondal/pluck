@@ -1,9 +1,9 @@
 {
   "name": "@trondal/pluck",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A set of something",
   "type": "module",
-  "module": "lib/es6/index.js",
+  "exports": "./lib/es6/index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
