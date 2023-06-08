@@ -1,8 +1,7 @@
 {
   "name": "@trondal/pluck",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A set of something",
-  "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
   "sideEffects": false,
   "repository": {
