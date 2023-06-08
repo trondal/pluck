@@ -1,1 +1,1 @@
-1. Update package.json version during build
+## Update package.json version during build
