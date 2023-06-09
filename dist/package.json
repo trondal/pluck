@@ -1,6 +1,9 @@
 {
   "name": "@trondal/pluck",
-  "version": "0.1.2",
+  "engines": {
+    "node": ">=16"
+  },
+  "version": "0.2.0",
   "description": "A set of something",
   "type": "module",
   "exports": "./lib/es6/index.js",
