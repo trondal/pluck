@@ -1,5 +1,3 @@
-import MuiBadge, { BadgeProps } from '@mui/material/Badge';
+import Badge from '@mui/material/Badge';
 
-const Badge = MuiBadge;
-
-export { Badge, BadgeProps }
+export { Badge }
