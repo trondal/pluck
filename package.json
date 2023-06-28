@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "compile": "rimraf -rf dist && tsc && tsc --build tsconfig.es5.json",
-    "rollup": "rimraf dist && node write.js && rollup -c"
+    "rollup": "rimraf dist && rollup -c && node write.js",
+    "publish": "cd dist && npm publish --access=public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
