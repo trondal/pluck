@@ -3,10 +3,9 @@
   "engines": {
     "node": ">=16"
   },
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A set of something",
-  "main": "lib/es5/index.js",
-  "module": "lib/es6/index.js",
+  "module": "./index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
