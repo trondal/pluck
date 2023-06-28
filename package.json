@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "repository": "git@github.com:trondal/pluck.git",
   "author": "Trond Albinussen <trond.albinussen@gmail.com>",
-  "license": "private",
   "type": "module",
+  "exports": "./index.js",
+  "license": "MIT",
   "scripts": {
-    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
-    "rollup": "rm -rf dist/lib && rollup -c"
+    "compile": "rimraf -rf dist && tsc && tsc --build tsconfig.es5.json",
+    "rollup": "rimraf dist && node write.js && rollup -c"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
@@ -19,8 +20,6 @@
     "typescript": "^5.1.3"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.5"
+    "rimraf": "^5.0.1"
   }
 }
